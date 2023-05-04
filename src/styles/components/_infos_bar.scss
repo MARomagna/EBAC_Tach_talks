@@ -1,6 +1,7 @@
+@use "../cores";
 .infos-bar {
   padding: 16px 24px;
-  background-color: #fff;
+  background-color: cores.$textColor;
   display: flex;
   justify-content: space-between;
   &__infos {
@@ -8,9 +9,9 @@
     gap: 40px;
     &__item {
       font-size: 14px;
-      color: #000;
+      color: cores.$secundaryTextColor;
       b {
-        color: #000;
+        color: cores.$secundaryTextColor;
         font-size: 18px;
         display: block;
       }

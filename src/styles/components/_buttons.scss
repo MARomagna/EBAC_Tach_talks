@@ -1,3 +1,4 @@
+@use "../cores";
 .button {
   padding: 12px;
   font-size: 18px;
@@ -5,8 +6,8 @@
   text-align: center;
   white-space: nowrap;
   &--primary {
-    color: #fff;
-    background-color: #4f2ac3;
+    color: cores.$textColor;
+    background-color: cores.$purple;
   }
   @media (max-width: 640px) {
     display: block;
